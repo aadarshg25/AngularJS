@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title: string = "Hello from BridgeLabz"; // Property for interpolation
+  title: string = 'Helloworld';
+  imgUrl: string = 'assets/logo.jpg';
+
+  ngOnInit(): void {
+    this.title = 'Hello from BridgeLabz.';
+  }
 }
 
